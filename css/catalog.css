@@ -87,6 +87,99 @@ a {
 
 /* ====================================================== */
 
+.items-filter {
+	margin: 50px 0;
+	display: flex;
+}
+
+.item-filter {
+	width: 360px;
+}
+
+.item-filter-box {
+	padding: 0px 5px 0px 20px;
+}
+
+.filter-box {
+	background: url(../img/arrow-filter.png) right no-repeat;
+}
+
+.item-filter-box-1 {
+	width: 180px;
+}
+
+.item-filter-box-2 {
+	width: 80px;
+}
+
+.item-filter-box-3 {
+	width: 80px;
+}
+
+.filter {
+	padding: 20px;
+	cursor: pointer;
+	display: block;
+	outline: none;
+	margin-right: 100px;
+	color: #ef5b70;
+	background: url(../img/filter.png) 100px no-repeat;
+}
+
+.filter-box {
+	padding: 20px;
+	cursor: pointer;
+	display: block;
+	outline: none;
+}
+
+.subfilter {
+	cursor: pointer;
+	display: block;
+	outline: none;
+	margin: 10px 40px;
+	padding: 10px;
+	border-left: 5px solid #ef5b70;
+}
+
+.items-cards {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.item-card {
+	width: 360px;
+	margin-bottom: 30px;
+}
+
+.item-card:hover {
+	cursor: pointer;
+}
+
+.item-card-title {
+	background-color: #f8f8f8;
+	font-size: 10px;
+	padding: 20px 30px;
+	letter-spacing: 1.2px;
+}
+
+.item-card-subtitle {
+}
+
+.item-card-text {
+	font-weight: 300;
+	margin: 18px 0;
+}
+
+.item-card-price {
+	font-size: 16px;
+	color: #f16d7f;
+}
+
+/* ====================================================== */
+
 .additionally {
 	background-color: #222224;
 }
