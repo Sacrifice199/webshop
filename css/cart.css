@@ -1,0 +1,209 @@
+* h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	font-family: "Lato", sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+.wrap {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.center {
+	padding: 0 calc(50% - 1140px / 2);
+}
+
+/* ====================================================== */
+
+.header {
+	background-color: #222;
+	padding: 20px 0;
+}
+
+.header-wrap {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header-logo-link {
+	margin-right: 20px;
+}
+
+.header-account-link {
+	margin: 0 20px;
+}
+
+/* ====================================================== */
+
+.promo {
+	background-color: #f1e4e6;
+}
+
+.promo-wrap {
+	height: 150px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.promo-title {
+	font-weight: normal;
+	color: #f16d7f;
+}
+
+/* ====================================================== */
+
+.additionally {
+	background-color: #222224;
+}
+
+.additionally-wrap {
+	padding: 100px 0;
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+	color: white;
+}
+
+.additionally-card {
+	width: 360px;
+	padding: 0px 20px;
+	box-sizing: border-box;
+}
+
+.additionally-subtitle {
+	margin: 20px 0;
+}
+
+.additionally-text {
+	font-weight: 300;
+}
+
+/* ====================================================== */
+
+.subscribe {
+	background-color: rgb(236, 236, 236);
+	background: url(../img/subscribe-bg.jpg) center no-repeat;
+}
+
+.subscribe-wrap {
+	height: 448px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.subscribe-face {
+	width: 25%;
+	text-align: center;
+}
+.subscribe-text {
+	font-style: italic;
+	margin-top: 30px;
+}
+.subscribe-submite {
+	text-align: center;
+}
+.subscribe-info {
+}
+.subcscribe-title {
+	font-weight: 700;
+}
+.subcscribe-subtitle {
+	margin: 10px 0 30px;
+	display: block;
+	font-weight: 400;
+}
+.subscribe-botton {
+	display: flex;
+}
+
+.subscribe-botton-input {
+	display: block;
+	padding: 10px 20px;
+	background-color: rgba(202, 202, 202, 0.4);
+	border-bottom-left-radius: 25px;
+	border-top-left-radius: 25px;
+	border: 1px solid rgba(255, 255, 255, 0);
+}
+
+.subscribe-botton-submit {
+	cursor: pointer;
+	display: block;
+	padding: 10px 20px;
+	color: white;
+	background-color: #f16d7f;
+	border-bottom-right-radius: 25px;
+	border-top-right-radius: 25px;
+	border: 1px solid rgba(255, 255, 255, 0);
+}
+
+/* ====================================================== */
+
+.footer {
+	height: 65px;
+	background-color: #222;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: whitesmoke;
+}
+.footer-media-list {
+	list-style: none;
+	display: flex;
+}
+
+.footer-media-icon {
+	width: 30px;
+	height: 30px;
+	content: "";
+	margin-left: 20px;
+}
+
+.footer-media-icon-1 {
+	background: url(../img/facebook.png) center no-repeat;
+}
+
+.footer-media-icon-2 {
+	background: url(../img/instagram.png) center no-repeat;
+}
+
+.footer-media-icon-3 {
+	background: url(../img/pinterest.png) center no-repeat;
+}
+
+.footer-media-icon-4 {
+	background: url(../img/twitter.png) center no-repeat;
+}
+
+.footer-media-icon-1:hover {
+	background: url(../img/facebookhover.png) center no-repeat;
+}
+
+.footer-media-icon-2:hover {
+	background: url(../img/instagrammhover.png) center no-repeat;
+}
+
+.footer-media-icon-3:hover {
+	background: url(../img/pinteresthover.png) center no-repeat;
+}
+
+.footer-media-icon-4:hover {
+	background: url(../img/twitterhover.png) center no-repeat;
+}
