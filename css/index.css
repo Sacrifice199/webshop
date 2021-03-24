@@ -158,6 +158,7 @@ a {
 
 .item-card:hover {
 	cursor: pointer;
+	margin: 0;
 }
 
 .item-card-title {
