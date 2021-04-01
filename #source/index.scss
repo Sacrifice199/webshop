@@ -1,0 +1,36 @@
+body {
+	margin: 0;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	font-family: "Lato", sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+.forwomen {
+	color: #f16d7f;
+}
+
+.wrap {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.center {
+	padding: 0 calc(50% - 1140px / 2);
+}
+
+/* ====================================================== */
+
+@import "../#source/bloks/common-header";
+
+@import "../#source/bloks/index/index-promo";
+@import "../#source/bloks/index/index-categories";
+@import "../#source/bloks/index/index-items";
+@import "../#source/bloks/index/index-additionally";
+
+@import "../#source/bloks/common-subscribe";
+@import "../#source/bloks/common-footer";

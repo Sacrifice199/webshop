@@ -1,0 +1,161 @@
+.items-filter {
+	margin: 50px 0;
+	display: flex;
+}
+
+.item-filter {
+	width: 360px;
+	box-shadow: 10px 10px 10px #ebebeb;
+}
+
+.item-filter-box {
+	padding: 0px 5px 0px 20px;
+}
+
+.filter-box {
+	background: url(../img/arrow-filter.png) right no-repeat;
+}
+
+.item-filter-box-1 {
+	width: 180px;
+}
+
+.item-filter-box-2 {
+	width: 80px;
+}
+
+.item-filter-box-3 {
+	width: 80px;
+}
+
+.filter {
+	padding: 20px;
+	cursor: pointer;
+	display: block;
+	outline: none;
+	margin-right: 100px;
+	color: rgb(2, 1, 1);
+	background: url(../img/filter.svg) 80px 22.5px no-repeat;
+}
+
+.filter:hover {
+	padding: 20px;
+	cursor: pointer;
+	display: block;
+	outline: none;
+	margin-right: 100px;
+	color: #ef5b70;
+	background: url(../img/filter.png) 80px 22.5px no-repeat;
+	transition: 0.3s;
+}
+
+.filter-box {
+	padding: 20px;
+	cursor: pointer;
+	display: block;
+	outline: none;
+}
+
+.filter-box:hover {
+	color: #ef5b70;
+	transition: 0.3s;
+}
+
+.subfilter {
+	cursor: pointer;
+	display: block;
+	outline: none;
+	margin: 10px 20px;
+	padding: 10px;
+	border-left: 5px solid #ef5b70;
+	border-bottom: 1px solid #ebebeb;
+}
+
+.filter-link {
+	margin: 15px 0px 0 45px;
+}
+
+.list-group-filter-1 {
+	margin: 0 auto;
+	width: 100px;
+	box-shadow: 10px 10px 10px #ebebeb;
+}
+
+.list-group-filter-2 {
+	margin: 0 auto;
+	width: 50px;
+	box-shadow: 10px 10px 10px #ebebeb;
+}
+
+.list-group-filter-3 {
+	margin: 0 auto;
+	width: 140px;
+	box-shadow: 10px 10px 10px #ebebeb;
+}
+
+.list-group-item {
+	list-style: none;
+	width: 100px;
+	margin: 10px -25px;
+}
+.list-group-item-3 {
+	list-style: none;
+	width: 150px;
+}
+
+.items-cards {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.item-card {
+	width: 360px;
+	margin-bottom: 30px;
+}
+
+.item-card:hover {
+	cursor: pointer;
+}
+
+.item-card-title {
+	background-color: #f8f8f8;
+	font-size: 10px;
+	padding: 20px 30px;
+	letter-spacing: 1.2px;
+}
+
+.item-card-text {
+	font-weight: 300;
+	margin: 18px 0;
+}
+
+.item-card-price {
+	font-size: 16px;
+	color: #f16d7f;
+}
+
+.items-navigation-list {
+	padding: 15px 15px 10px;
+	margin: 50px auto;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px solid #c4c4c4;
+	border-radius: 5px;
+}
+
+.page-link {
+	color: #c4c4c4;
+}
+
+.page-link:hover {
+	color: #c4c4c4;
+
+	color: #ef5b70;
+	transition: 0.3s;
+}
+
+/* ====================================================== */

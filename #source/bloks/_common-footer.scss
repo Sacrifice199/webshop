@@ -1,0 +1,52 @@
+
+.footer {
+	height: 65px;
+	background-color: #222;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: whitesmoke;
+}
+.footer-media-list {
+	list-style: none;
+	display: flex;
+}
+
+.footer-media-icon {
+	width: 30px;
+	height: 30px;
+	content: "";
+	margin-left: 20px;
+}
+
+.footer-media-icon-1 {
+	background: url(../img/facebook.png) center no-repeat;
+}
+
+.footer-media-icon-2 {
+	background: url(../img/instagram.png) center no-repeat;
+}
+
+.footer-media-icon-3 {
+	background: url(../img/pinterest.png) center no-repeat;
+}
+
+.footer-media-icon-4 {
+	background: url(../img/twitter.png) center no-repeat;
+}
+
+.footer-media-icon-1:hover {
+	background: url(../img/facebookhover.png) center no-repeat;
+}
+
+.footer-media-icon-2:hover {
+	background: url(../img/instagrammhover.png) center no-repeat;
+}
+
+.footer-media-icon-3:hover {
+	background: url(../img/pinteresthover.png) center no-repeat;
+}
+
+.footer-media-icon-4:hover {
+	background: url(../img/twitterhover.png) center no-repeat;
+}

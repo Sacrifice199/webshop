@@ -1,0 +1,34 @@
+.promo {
+	background-color: #f1e4e6;
+}
+
+.promo-wrap {
+	height: 150px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.promo-title {
+	font-weight: normal;
+	color: #f16d7f;
+}
+.promo-navigation {
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 17px;
+}
+.navigation-link {
+	color: #636363;
+}
+
+.navigation-link-3 {
+	color: #f16d7f;
+	font-weight: 700;
+}
+
+.navigation-link:hover {
+	color: #f16d7f;
+	transition: 0.3s;
+}
+
+/* ====================================================== */
