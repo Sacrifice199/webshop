@@ -8,6 +8,11 @@ h6 {
   padding: 0;
 }
 
+p {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0;
   min-height: 100vh;
@@ -70,9 +75,9 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -105,6 +110,83 @@ a {
 }
 
 /* ====================================================== */
+.shopping {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.item-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 650px;
+  height: 300px;
+  margin-bottom: 40px;
+}
+
+.price-card {
+  margin: 30px;
+}
+
+.price-cart-title {
+  margin-bottom: 30px;
+}
+
+.card-text {
+  margin-bottom: 10px;
+}
+
+.card-text-info-1 {
+  color: #f16d7f;
+}
+
+.adress-shipping {
+  margin-top: 30px;
+}
+
+.shipping-state {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 20px 0 70px;
+}
+
+.shipping-name {
+  padding: 10px 90px 10px 10px;
+  margin-bottom: 20px;
+}
+
+.shipping-submit {
+  padding: 10px;
+  font-size: 14px;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.price-shipping {
+  background-color: rgba(138, 138, 138, 0.3);
+}
+
+.grandtotal-shipping {
+  position: relative;
+  margin: 20px 0 40px;
+}
+
+.grandtotal-shipping::after {
+  position: absolute;
+  content: "";
+  width: 200px;
+  height: 1px;
+  top: 35px;
+  left: calc(50% - 100px);
+  background-color: red;
+}
+
 .additionally {
   background-color: #222224;
 }

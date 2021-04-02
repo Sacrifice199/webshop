@@ -1,5 +1,139 @@
 .boxinfo {
+	position: relative;
+	width: 1140px;
 	height: 600px;
+	text-align: center;
+	margin: -60px auto 100px;
+	background-color: #fafafa;
+	border: 1px solid rgb(182, 182, 182);
+}
+
+.boxinfo-caption {
+	color: #f16d7f;
+	position: relative;
+	padding: 50px 0 30px;
+	font-weight: 300;
+}
+
+.boxinfo-caption::after {
+	content: "";
+	position: absolute;
+	width: 50px;
+	top: 75px;
+	height: 2px;
+	left: calc(50% - 25px);
+	background-color: #f16d7f;
+	-webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+	box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+	margin: 0px 0px 0px 0px;
+}
+
+.boxinfo-text {
+	font-weight: 300;
+	width: 650px;
+	margin: 50px auto 30px;
+}
+.boxinfo-price {
+	font-weight: 300;
+	font-size: 24px;
+	position: relative;
+	color: #f16d7f;
+}
+
+.boxinfo-price::after {
+	position: absolute;
+	content: "";
+	width: 650px;
+	top: 75px;
+	height: 1px;
+	left: calc(50% - 325px);
+	background-color: #eaeaea;
+}
+
+.boxinfo-option {
+	display: flex;
+	justify-content: center;
+}
+
+.item-filter-box {
+	padding: 100px 5px 0px 20px;
+}
+
+.filter-box {
+	font-size: 14px;
+	font-weight: 300;
+	background: url(../img/arrow-filter.png) right no-repeat;
+}
+
+.item-filter-box-1 {
+	width: 150px;
+}
+
+.item-filter-box-2 {
+	width: 130px;
+}
+
+.item-filter-box-3 {
+	width: 115px;
+}
+
+.filter-box {
+	padding: 20px;
+	cursor: pointer;
+	display: block;
+	outline: none;
+}
+
+.filter-box:hover {
+	color: #ef5b70;
+	transition: 0.3s;
+}
+
+.list-group-filter {
+	font-size: 14px;
+	text-align: left;
+	color: #6f6e6e;
+}
+
+.list-group-filter-1 {
+	margin: 0 auto;
+	width: 70px;
+	box-shadow: 10px 10px 10px #ebebeb;
+}
+
+.list-group-filter-2 {
+	margin: 0 auto;
+	width: 50px;
+	box-shadow: 10px 10px 10px #ebebeb;
+}
+
+.list-group-filter-3 {
+	margin: 0 auto;
+	width: 120px;
+	box-shadow: 10px 10px 10px #ebebeb;
+}
+
+.list-group-item {
+	list-style: none;
+	width: 100px;
+	margin: 10px -25px;
+}
+.list-group-item-3 {
+	list-style: none;
+	width: 130px;
+}
+
+.boxinfo-botton {
+	margin: 40px 0 100px;
+	text-align: center;
+}
+
+.boxinfo-botton-link {
+	margin: 0 auto;
+	padding: 10px 50px;
+	color: #f16d7f;
+	border: 1px solid #f16d7f;
+	background: url(/img/cart-product.png) 10px center no-repeat;
 }
 
 /* ====================================================== */
