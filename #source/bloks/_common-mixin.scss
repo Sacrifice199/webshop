@@ -1,0 +1,16 @@
+@mixin hover-text {
+	color: $color-pink;
+	transition: 0.4s;
+}
+
+@mixin hover-botton {
+	background-color: $color-pink;
+	color: $color-white;
+	transition: 0.4s;
+}
+
+@mixin hover-botton-rev {
+	background-color: $color-white;
+	color: $color-pink;
+	transition: 0.4s;
+}

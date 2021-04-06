@@ -1,23 +1,47 @@
 .shopping {
+	margin: 50px 0 100px;
 	display: flex;
+	justify-content: space-between;
 }
 
 .menu {
+	margin: 0;
+	padding: 0;
 }
 .items {
 }
 .item-card {
+	position: relative;
 	display: flex;
 	width: 650px;
 	height: 300px;
 	margin-bottom: 40px;
+	box-shadow: 17px 18px 24px rgba(0, 0, 0, 0.12);
 }
+
+.close {
+	cursor: pointer;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+
+.close:hover {
+	transition: 1s;
+	transform: rotateY(360deg);
+}
+
 .image-card {
+	width: 260px;
+	height: 300px;
 }
 .price-card {
 	margin: 30px;
 }
+
 .price-cart-title {
+	position: relative;
+	font-size: 24px;
 	margin-bottom: 30px;
 }
 
@@ -25,6 +49,7 @@
 }
 
 .card-text {
+	font-size: 22px;
 	margin-bottom: 10px;
 }
 .card-text-info {
@@ -34,11 +59,37 @@
 	color: #f16d7f;
 }
 
+.card-text-info-4 {
+	font-size: 18px;
+	margin-left: 20px;
+	border: 1px solid rgba(0, 0, 0, 0.253);
+	width: 40px;
+	height: 20px;
+}
+
+.card-submit {
+	display: flex;
+	justify-content: space-between;
+}
+
+.btn-submit {
+	border: 1px solid #a4a4a4;
+	box-sizing: border-box;
+	padding: 15px 40px 15px 40px;
+	background-color: #fff;
+}
+
+.btn-submit:hover {
+	@include hover-botton;
+}
+
 .aside {
 }
 .shipping {
 }
 .adress-shipping {
+	font-weight: 300;
+	font-size: 16px;
 	margin-top: 30px;
 }
 .shipping-state {
@@ -47,37 +98,64 @@
 	margin: 20px 0 70px;
 }
 .shipping-name {
-	padding: 10px 90px 10px 10px;
+	padding: 20px 200px 20px 20px;
 	margin-bottom: 20px;
+	box-sizing: border-box;
 }
 .shipping-submit {
-	padding: 10px;
-	font-size: 14px;
+	border: 1px solid #a4a4a4;
+	padding: 15px 20px 15px 20px;
+	box-sizing: border-box;
+	font-weight: 300px;
+	font-size: 11px;
 	align-self: flex-start;
+	background-color: #fff;
 }
+
+.shipping-submit:hover {
+	@include hover-botton;
+}
+
 .price-shipping {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	justify-content: center;
+	width: 360px;
+	height: 215px;
 	background-color: rgba(138, 138, 138, 0.3);
 }
 .subtotal-shipping {
+	margin-right: 20px;
 }
 .subtotal-shipping-price {
 }
 .grandtotal-shipping {
 	position: relative;
-	margin: 20px 0 40px;
+	margin: 20px 20px 40px;
 }
 
 .grandtotal-shipping::after {
 	position: absolute;
 	content: "";
-	width: 200px;
+	width: 275px;
 	height: 1px;
 	top: 35px;
-	left: calc(50% - 100px);
-	background-color: red;
+	right: 40px;
+	background-color: #a4a4a4;
 }
 
 .grandtotal-shipping-price {
+	color: $color-pink;
 }
+
 .checkout-shipping {
+	@include hover-botton;
+	margin: 0 auto;
+	padding: 15px 60px;
+	border: 1px solid #a4a4a4;
+}
+
+.checkout-shipping:hover {
+	@include hover-botton-rev;
 }

@@ -17,7 +17,7 @@
 	width: 50%;
 	margin-left: 64px;
 	margin-top: -80px;
-	border-left: 12px solid #f16d7f;
+	border-left: 12px solid $color-pink;
 	padding-left: 16px;
 }
 
@@ -33,7 +33,7 @@
 
 .promo-title-color {
 	font-size: 25px;
-	color: #f16d7f;
+	color: $color-pink;
 	text-shadow: -0 -1px 0 #000000, 0 -1px 0 #000000, -0 1px 0 #000000, 0 1px 0 #000000, -1px -0 0 #000000,
 		1px -0 0 #000000, -1px 0 0 #000000, 1px 0 0 #000000, -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000,
 		1px 1px 0 #000000, -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;

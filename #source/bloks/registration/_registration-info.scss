@@ -1,0 +1,67 @@
+.info {
+	display: flex;
+}
+.center {
+}
+.info-form {
+	font-weight: 300;
+	font-size: 16px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin: 40px 0 60px;
+}
+
+.info-input {
+	width: 360px;
+	height: 45px;
+	padding-left: 20px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+}
+
+.boxmale {
+	margin: 20px 0px;
+	font-size: 16px;
+}
+
+.text-form {
+	font-size: 13px;
+}
+
+.info-button {
+	cursor: pointer;
+	color: $color-white;
+	border: 1px solid $color-pink;
+	padding: 15px 70px 15px 20px;
+	box-sizing: border-box;
+	background: url(../img/arrowwhite.png) $color-pink 80% 50% no-repeat;
+}
+
+.info-button:hover {
+	@include hover-botton-rev;
+	background: url(../img/arrowpink.png) 80% 50% no-repeat;
+}
+
+.info-advantages {
+	font-size: 24px;
+	font-weight: 300;
+}
+
+.tilte-advantages {
+	padding: 40px;
+}
+
+.text-advantages {
+	margin: 20px 40px;
+}
+
+.list-advantages {
+}
+
+.list {
+	padding-left: 40px;
+	margin-bottom: 10px;
+	list-style: none;
+	background: url(../img/checkregist.png) left no-repeat;
+}

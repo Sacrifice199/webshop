@@ -11,7 +11,7 @@
 
 .promo-title {
 	font-weight: normal;
-	color: #f16d7f;
+	color: $color-pink;
 }
 
 .promo-navigation {
@@ -21,17 +21,18 @@
 }
 
 .navigation-link {
+	font-weight: 700;
+	font-size: 14px;
 	color: #636363;
 }
 
 .navigation-link-3 {
-	color: #f16d7f;
+	color: $color-pink;
 	font-weight: 700;
 }
 
 .navigation-link:hover {
-	color: #f16d7f;
-	transition: 0.3s;
+	@include hover-text;
 }
 
 /* ====================================================== */

@@ -1,0 +1,37 @@
+.item-filter {
+	padding: 50px 25px 0px;
+	background-color: white;
+	width: 232px;
+	position: absolute;
+	top: 60px;
+	right: -342px;
+	box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+}
+
+.close {
+	position: absolute;
+	top: 25px;
+	right: 25px;
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+	background: url(../img/close.png) no-repeat;
+}
+
+.filter {
+	display: block;
+	outline: none;
+}
+.subfilter {
+	cursor: pointer;
+	display: block;
+	outline: none;
+	margin: 20px 0px;
+	color: $color-pink;
+}
+
+.filter-link {
+	color: gray;
+	display: block;
+	margin: 0px 0px 10px 30px;
+}

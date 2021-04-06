@@ -29,6 +29,14 @@
 
 			</div>
 
+			<div class="self-time-navigation">
+				<a class="selftime-link" href="index.html">Главная</a>
+				<a class="selftime-link" href="catalog.html">Каталог</a>
+				<a class="selftime-link" href="product.html">Продукция</a>
+				<a class="selftime-link" href="cart.html">Корзина</a>
+				<a class="selftime-link" href="registration.html">Регистрация</a>
+			</div>
+
 			<div class="header-right">
 
 				<a href="#" class="header-menu-link">
@@ -60,8 +68,9 @@
 		</section>
 
 		<section class="product">
-			<div class="productarrow productarrow-left"><a href=""><img src="img/arrowleft.png" alt=""></a></div>
-			<div class="productarrow productarrow-right"><a href=""><img src="img/arrowright.png" alt=""></a></div>
+			<img src="img/productbg.png" alt="">
+			<button class="productarrow productarrow-left">.</button>
+			<button class="productarrow productarrow-right">.</button>
 		</section>
 
 		<section class="boxinfo">
@@ -73,89 +82,94 @@
 					parallel core competencies rather than exceptional portals. </div>
 				<div class="boxinfo-price">$561</div>
 			</div>
-			<div class="cart-boxinfo">
-				<div class="boxinfo-option">
-					<details class="item-filter-box item-filter-box-1">
-						<summary class="filter-box">CHOOSE COLOR</summary>
-						<ul class="list-group-filter list-group-filter-1">
-							<li class="list-group-item">
-								<input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-								Sale
-							</li>
-							<li class="list-group-item">
-								<input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-								Sale
-							</li>
-							<li class="list-group-item">
-								<input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-								Sale
-							</li>
-							<li class="list-group-item">
-								<input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-								Sale
-							</li>
-							<li class="list-group-item">
-								<input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-								Sale
-							</li>
-						</ul>
-					</details>
-
-					<details class="item-filter-box item-filter-box-2">
-						<summary class="filter-box">CHOOSE SIZE</summary>
-						<ul class="list-group-filter list-group-filter-2">
-							<li class="list-group-item">
-								<input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-								XL
-							</li>
-							<li class="list-group-item">
-								<input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-								L
-							</li>
-							<li class="list-group-item">
-								<input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-								M
-							</li>
-							<li class="list-group-item">
-								<input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-								S
-							</li>
-						</ul>
-					</details>
-
-					<details class="item-filter-box item-filter-box-3">
-						<summary class="filter-box">QUANTINY</summary>
-						<ul class="list-group-filter list-group-filter-3">
-							<li class="list-group-item list-group-item-3">
-								<input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-								0.9$ - 9.99$
-							</li>
-							<li class="list-group-item list-group-item-3">
-								<input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-								10$ - 49.99$
-							</li>
-							<li class="list-group-item list-group-item-3">
-								<input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-								50$ - 99.99$
-							</li>
-							<li class="list-group-item list-group-item-3">
-								<input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-								100$ - 149.99$
-							</li>
-						</ul>
-					</details>
-				</div>
-				<div class="boxinfo-botton">
-					<a href="cart.html" class="boxinfo-botton-link"> Add to Cart</a>
-				</div>
+			<section class="cart-boxinfo"></section>
+			<div class="boxinfo-option">
+				<input class="input-check input-check-1" type="checkbox" id="color">
+				<label class="input-title" for="color"> CHOOSE COLOR</label>
+				<din class="input-drop input-drop-1">
+					<ul class="list-group-filter list-group-filter-1">
+						<li class="list-group-item">
+							<input class="form-check-input" type="checkbox" value="" aria-label="...">
+							Sale
+						</li>
+						<li class="list-group-item">
+							<input class="form-check-input" type="checkbox" value="" aria-label="...">
+							Sale
+						</li>
+						<li class="list-group-item">
+							<input class="form-check-input" type="checkbox" value="" aria-label="...">
+							Sale
+						</li>
+						<li class="list-group-item">
+							<input class="form-check-input" type="checkbox" value="" aria-label="...">
+							Sale
+						</li>
+						<li class="list-group-item">
+							<input class="form-check-input" type="checkbox" value="" aria-label="...">
+							Sale
+						</li>
+					</ul>
+				</din>
+				<input class="input-check input-check-2" type="checkbox" id="size">
+				<label class="input-title" for="size"> CHOOSE SIZE</label>
+				<din class="input-drop input-drop-2">
+					<ul class="list-group-filter list-group-filter-2">
+						<li class="list-group-item">
+							<input class="form-check-input" type="checkbox" value="" aria-label="...">
+							XL
+						</li>
+						<li class="list-group-item">
+							<input class="form-check-input" type="checkbox" value="" aria-label="...">
+							L
+						</li>
+						<li class="list-group-item">
+							<input class="form-check-input" type="checkbox" value="" aria-label="...">
+							M
+						</li>
+						<li class="list-group-item">
+							<input class="form-check-input" type="checkbox" value="" aria-label="...">
+							S
+						</li>
+					</ul>
+				</din>
+				<input class="input-check input-check-3" type="checkbox" id="quantity">
+				<label class="input-title" for="quantity"> QUANTITY</label>
+				<din class="input-drop input-drop-3">
+					<ul class="list-group-filter list-group-filter-3">
+						<li class="list-group-item list-group-item-3">
+							<input class="form-check-input" type="checkbox" value="" aria-label="...">
+							0.9$ - 9.99$
+						</li>
+						<li class="list-group-item list-group-item-3">
+							<input class="form-check-input" type="checkbox" value="" aria-label="...">
+							10$ - 49.99$
+						</li>
+						<li class="list-group-item list-group-item-3">
+							<input class="form-check-input" type="checkbox" value="" aria-label="...">
+							50$ - 99.99$
+						</li>
+						<li class="list-group-item list-group-item-3">
+							<input class="form-check-input" type="checkbox" value="" aria-label="...">
+							100$ - 149.99$
+						</li>
+					</ul>
+				</din>
 			</div>
+			<div class="boxinfo-botton">
+				<a href="cart.html" class="boxinfo-botton-link"> Add to Cart</a>
+			</div>
+
+		</section>
 
 		</section>
 
 		<section class="item center">
 			<ul class="items-cards">
 				<li class="item-card item-card-1">
-					<img src="img/card1.png" alt="product">
+					<img class="card-image" src="img/card1.png" alt="product">
+					<div class="item-cart">
+						<button class="card-add">Add to Card</button>
+					</div>
 					<div class="item-card-title">
 						<div class="item-card-subtitle">ELLERY X M'O CAPSULE</div>
 						<div class="item-card-text">Known for her sculptural takes on traditional tailoring, Australian
@@ -164,7 +178,10 @@
 					</div>
 				</li>
 				<li class="item-card item-card-2">
-					<img src="img/card2.png" alt="product">
+					<img class="card-image" src="img/card1.png" alt="product">
+						<div class="item-cart">
+							<button class="card-add">Add to Card</button>
+						</div>
 					<div class="item-card-title">
 						<div class="item-card-subtitle">ELLERY X M'O CAPSULE</div>
 						<div class="item-card-text">Known for her sculptural takes on traditional tailoring, Australian
@@ -173,7 +190,10 @@
 					</div>
 				</li>
 				<li class="item-card item-card-3">
-					<img src="img/card3.png" alt="product">
+					<img class="card-image" src="img/card1.png" alt="product">
+					<div class="item-cart">
+						<button class="card-add">Add to Card</button>
+					</div>
 					<div class="item-card-title">
 						<div class="item-card-subtitle">ELLERY X M'O CAPSULE</div>
 						<div class="item-card-text">Known for her sculptural takes on traditional tailoring, Australian
@@ -181,35 +201,6 @@
 						<div class="item-card-price">$52.00</div>
 					</div>
 				</li>
-		</section>
-
-		<section class="additionally">
-			<div class="wrap additionally-wrap">
-				<div class="additionally-card">
-					<img src="img/additionally-card1.svg" alt="">
-					<div class="additionally-title">
-						<div class="additionally-subtitle">Free Delivery</div>
-						<div class="additionally-text">Worldwide delivery on all. Authorit tively morph next-generation innov
-							tion with extensive models.</div>
-					</div>
-				</div>
-				<div class="additionally-card">
-					<img src="img/additionally-card2.png" alt="">
-					<div class="additionally-title">
-						<div class="additionally-subtitle">Sales & discounts</div>
-						<div class="additionally-text">Worldwide delivery on all. Authorit tively morph next-generation innov
-							tion with extensive models.</div>
-					</div>
-				</div>
-				<div class="additionally-card">
-					<img src="img/additionally-card3.png" alt="">
-					<div class="additionally-title">
-						<div class="additionally-subtitle">Quality assurance</div>
-						<div class="additionally-text">Worldwide delivery on all. Authorit tively morph next-generation innov
-							tion with extensive models.</div>
-					</div>
-				</div>
-			</div>
 		</section>
 
 		<section class="subscribe">

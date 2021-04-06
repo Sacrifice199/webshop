@@ -31,11 +31,14 @@ a {
 
 /* ====================================================== */
 
-@import "../#source/bloks/common-header";
+@import "../#source/bloks/common-variable";
+@import "../#source/bloks/common-mixin";
 
+@import "../#source/bloks/common-header";
 @import "../#source/bloks/catalog/catalog-promo";
 @import "../#source/bloks/catalog/catalog-items";
-@import "../#source/bloks/catalog/catalog-additionally";
-
+@import "../#source/bloks/common-additionally";
 @import "../#source/bloks/common-subscribe";
 @import "../#source/bloks/common-footer";
+
+@import "../#source/bloks/common-selftime";

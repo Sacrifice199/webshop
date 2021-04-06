@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Registration</title>
-	<link rel="stylesheet" href="css/catalog.css">
+	<link rel="stylesheet" href="css/registration.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link
 		href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&display=swap"
@@ -27,6 +27,14 @@
 					<img src="img/search.png" width="" height="" alt="search" class="header-search">
 				</a>
 
+			</div>
+
+			<div class="self-time-navigation">
+				<a class="selftime-link" href="index.html">Главная</a>
+				<a class="selftime-link" href="catalog.html">Каталог</a>
+				<a class="selftime-link" href="product.html">Продукция</a>
+				<a class="selftime-link" href="cart.html">Корзина</a>
+				<a class="selftime-link" href="registration.html">Регистрация</a>
 			</div>
 
 			<div class="header-right">
@@ -60,33 +68,36 @@
 			</div>
 		</section>
 
-		<section class="additionally">
-			<div class="wrap additionally-wrap">
-				<div class="additionally-card">
-					<img src="img/additionally-card1.svg" alt="">
-					<div class="additionally-title">
-						<div class="additionally-subtitle">Free Delivery</div>
-						<div class="additionally-text">Worldwide delivery on all. Authorit tively morph next-generation innov
-							tion with extensive models.</div>
-					</div>
+		<section class="info center">
+			<form action="" class="info-form">
+				<p>Your name</p>
+				<input class="info-input" type="text" placeholder="Firs Name">
+				<input class="info-input" type="text" placeholder="Last Name">
+				<div class="boxmale">
+					<input class="info-radio" type="radio" name="Male" checked> Male
+					<input class="info-radio" type="radio" name="Male"> Famale
 				</div>
-				<div class="additionally-card">
-					<img src="img/additionally-card2.png" alt="">
-					<div class="additionally-title">
-						<div class="additionally-subtitle">Sales & discounts</div>
-						<div class="additionally-text">Worldwide delivery on all. Authorit tively morph next-generation innov
-							tion with extensive models.</div>
-					</div>
-				</div>
-				<div class="additionally-card">
-					<img src="img/additionally-card3.png" alt="">
-					<div class="additionally-title">
-						<div class="additionally-subtitle">Quality assurance</div>
-						<div class="additionally-text">Worldwide delivery on all. Authorit tively morph next-generation innov
-							tion with extensive models.</div>
-					</div>
-				</div>
-			</div>
+				<p>Login details</p>
+				<input class="info-input" type="email" placeholder="Email">
+				<input class="info-input" type="password" placeholder="Password">
+				<p class="text-form">Please use 8 or more characters, with at least 1 number and a mixture of uppercase and
+					lowercase letters
+				</p>
+
+				<button class="info-button" name="submit">JOIN NOW</button>
+			</form>
+			<aside class="info-advantages">
+				<div class="tilte-advantages">LOYALTY HAS ITS PERKS</div>
+				<div class="text-advantages">Get in on the loyalty program where you can earn points and unlock serious
+					perks. Starting with these as soon as you join:</div>
+				<ul class="list-advantages">
+					<li class="list">15% off welcome offer</li>
+					<li class="list">Free shipping, returns and exchanges on all orders</li>
+					<li class="list">$10 off a purchase on your birthday</li>
+					<li class="list">Early access to products</li>
+					<li class="list">Exclusive offers & rewards</li>
+				</ul>
+			</aside>
 		</section>
 
 		<section class="subscribe">
