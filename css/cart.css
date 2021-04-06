@@ -240,7 +240,7 @@ a {
   padding: 15px 20px 15px 20px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-weight: 300px;
+  font-weight: 300;
   font-size: 11px;
   -ms-flex-item-align: start;
       align-self: flex-start;

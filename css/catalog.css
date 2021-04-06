@@ -109,6 +109,11 @@ a {
 }
 
 /* ====================================================== */
+ul {
+  list-style: none;
+  display: block;
+}
+
 .items-filter {
   position: relative;
   margin: 50px 0;
