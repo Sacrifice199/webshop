@@ -20,26 +20,34 @@
 			<div class="header-left">
 
 				<a href="index.html" class="header-logo-link">
-					<img src="img/logo.svg" width="44" height="38" alt="logo" class="header-logo">
+					<img src="img/logo.svg" alt="logo" class="header-logo">
 				</a>
 
 				<a href="#" class="header-search-link">
-					<img src="img/search.png" width="" height="" alt="search" class="header-search">
+					<img src="img/search.png" alt="search" class="header-search">
 				</a>
 
+			</div>
+
+			<div class="self-time-navigation">
+				<a class="selftime-link" href="index.html">Главная</a>
+				<a class="selftime-link" href="catalog.html">Каталог</a>
+				<a class="selftime-link" href="product.html">Продукция</a>
+				<a class="selftime-link" href="cart.html">Корзина</a>
+				<a class="selftime-link" href="registration.html">Регистрация</a>
 			</div>
 
 			<div class="header-right">
 
 				<a href="#" class="header-menu-link">
-					<img src="img/burger.png" width="" height="" alt="search" class="header-menu">
+					<img src="img/burger.png" alt="search" class="header-menu">
 				</a>
 
 				<a href="#" class="header-account-link">
-					<img src="img/registration.png" width="" height="" alt="search" class="header-account">
+					<img src="img/registration.png" alt="search" class="header-account">
 				</a>
 
-				<a href="#" width="" height="" class="header-cart-link">
+				<a href="#" class="header-cart-link">
 					<img src="img/cart.png" alt="cart" class="header-cart">
 				</a>
 
@@ -60,18 +68,101 @@
 		</section>
 
 		<section class="product">
-			<div class="productarrow productarrow-left"><a href=""><img src="img/arrowleft.png" alt=""></a></div>
-			<div class="productarrow productarrow-right"><a href=""><img src="img/arrowright.png" alt=""></a></div>
+			<img src="img/productbg.png" alt="photo">
+			<button class="productarrow productarrow-left"></button>
+			<button class="productarrow productarrow-right"></button>
 		</section>
 
 		<section class="boxinfo">
-			
+			<div class="titlelist-boxinfo">
+				<h6 class="boxinfo-caption">WOMEN COLLECTION</h6>
+				<div class="boxinfo-title">MOSCHINO CHEAP AND CHIC</div>
+				<div class="boxinfo-text">Compellingly actualize fully researched processes before proactive outsourcing.
+					Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize
+					parallel core competencies rather than exceptional portals. </div>
+				<div class="boxinfo-price">$561</div>
+			</div>
+			<section class="cart-boxinfo">
+				<div class="boxinfo-option">
+					<input class="input-check input-check-1" type="checkbox" id="color">
+					<label class="input-title" for="color"> CHOOSE COLOR</label>
+					<div class="input-drop input-drop-1">
+						<ul class="list-group-filter list-group-filter-1">
+							<li class="list-group-item">
+								<input class="form-check-input" type="checkbox" value="" aria-label="...">
+								Sale
+							</li>
+							<li class="list-group-item">
+								<input class="form-check-input" type="checkbox" value="" aria-label="...">
+								Sale
+							</li>
+							<li class="list-group-item">
+								<input class="form-check-input" type="checkbox" value="" aria-label="...">
+								Sale
+							</li>
+							<li class="list-group-item">
+								<input class="form-check-input" type="checkbox" value="" aria-label="...">
+								Sale
+							</li>
+						</ul>
+					</div>
+					<input class="input-check input-check-2" type="checkbox" id="size">
+					<label class="input-title" for="size"> CHOOSE SIZE</label>
+					<div class="input-drop input-drop-2">
+						<ul class="list-group-filter list-group-filter-2">
+							<li class="list-group-item">
+								<input class="form-check-input" type="checkbox" value="" aria-label="...">
+								XL
+							</li>
+							<li class="list-group-item">
+								<input class="form-check-input" type="checkbox" value="" aria-label="...">
+								L
+							</li>
+							<li class="list-group-item">
+								<input class="form-check-input" type="checkbox" value="" aria-label="...">
+								M
+							</li>
+							<li class="list-group-item">
+								<input class="form-check-input" type="checkbox" value="" aria-label="...">
+								S
+							</li>
+						</ul>
+					</div>
+					<input class="input-check input-check-3" type="checkbox" id="quantity">
+					<label class="input-title" for="quantity"> QUANTITY</label>
+					<div class="input-drop input-drop-3">
+						<ul class="list-group-filter list-group-filter-3">
+							<li class="list-group-item list-group-item-3">
+								<input class="form-check-input" type="checkbox" value="" aria-label="...">
+								0.9$ - 9.99$
+							</li>
+							<li class="list-group-item list-group-item-3">
+								<input class="form-check-input" type="checkbox" value="" aria-label="...">
+								10$ - 49.99$
+							</li>
+							<li class="list-group-item list-group-item-3">
+								<input class="form-check-input" type="checkbox" value="" aria-label="...">
+								50$ - 99.99$
+							</li>
+							<li class="list-group-item list-group-item-3">
+								<input class="form-check-input" type="checkbox" value="" aria-label="...">
+								100$ - 149.99$
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="boxinfo-botton">
+					<a href="cart.html" class="boxinfo-botton-link"> Add to Cart</a>
+				</div>
+			</section>
 		</section>
-
 		<section class="item center">
 			<ul class="items-cards">
 				<li class="item-card item-card-1">
-					<img src="img/card1.png" alt="product">
+					<img class="card-image" src="img/card1.png" alt="product">
+					<div class="item-cart">
+						<button class="card-add">Add to Card</button>
+					</div>
 					<div class="item-card-title">
 						<div class="item-card-subtitle">ELLERY X M'O CAPSULE</div>
 						<div class="item-card-text">Known for her sculptural takes on traditional tailoring, Australian
@@ -80,7 +171,10 @@
 					</div>
 				</li>
 				<li class="item-card item-card-2">
-					<img src="img/card2.png" alt="product">
+					<img class="card-image" src="img/card1.png" alt="product">
+					<div class="item-cart">
+						<button class="card-add">Add to Card</button>
+					</div>
 					<div class="item-card-title">
 						<div class="item-card-subtitle">ELLERY X M'O CAPSULE</div>
 						<div class="item-card-text">Known for her sculptural takes on traditional tailoring, Australian
@@ -89,7 +183,10 @@
 					</div>
 				</li>
 				<li class="item-card item-card-3">
-					<img src="img/card3.png" alt="product">
+					<img class="card-image" src="img/card1.png" alt="product">
+					<div class="item-cart">
+						<button class="card-add">Add to Card</button>
+					</div>
 					<div class="item-card-title">
 						<div class="item-card-subtitle">ELLERY X M'O CAPSULE</div>
 						<div class="item-card-text">Known for her sculptural takes on traditional tailoring, Australian
@@ -97,42 +194,15 @@
 						<div class="item-card-price">$52.00</div>
 					</div>
 				</li>
-		</section>
-
-		<section class="additionally">
-			<div class="wrap additionally-wrap">
-				<div class="additionally-card">
-					<img src="img/additionally-card1.svg" alt="">
-					<div class="additionally-title">
-						<div class="additionally-subtitle">Free Delivery</div>
-						<div class="additionally-text">Worldwide delivery on all. Authorit tively morph next-generation innov
-							tion with extensive models.</div>
-					</div>
-				</div>
-				<div class="additionally-card">
-					<img src="img/additionally-card2.png" alt="">
-					<div class="additionally-title">
-						<div class="additionally-subtitle">Sales & discounts</div>
-						<div class="additionally-text">Worldwide delivery on all. Authorit tively morph next-generation innov
-							tion with extensive models.</div>
-					</div>
-				</div>
-				<div class="additionally-card">
-					<img src="img/additionally-card3.png" alt="">
-					<div class="additionally-title">
-						<div class="additionally-subtitle">Quality assurance</div>
-						<div class="additionally-text">Worldwide delivery on all. Authorit tively morph next-generation innov
-							tion with extensive models.</div>
-					</div>
-				</div>
-			</div>
+			</ul>
 		</section>
 
 		<section class="subscribe">
 			<div class="wrap subscribe-wrap">
 				<section class="subscribe-face">
-					<img src="img/subscribe.png" alt="">
-					<div class="subscribe-text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus
+					<img src="img/subscribe.png" alt="photo">
+					<div class="subscribe-text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar
+						purus
 						condimentum“</div>
 				</section>
 				<section class="subscribe-submite">
@@ -140,7 +210,7 @@
 						<div class="subcscribe-title">SUBSCRIBE <br>
 							<span class="subcscribe-subtitle">FOR OUR NEWLETTER AND PROMOTION</span>
 						</div>
-						<form action="" class="subscribe-botton">
+						<form action="#" class="subscribe-botton">
 							<input class="subscribe-botton-input" type="email" placeholder="Enter Your Email">
 							<button class="subscribe-botton-submit"> Subscribe </button>
 						</form>
@@ -156,18 +226,10 @@
 
 		<section class="footer-media">
 			<ul class="footer-media-list">
-				<a href="">
-					<li class="footer-media-icon footer-media-icon-1"></li>
-				</a>
-				<a href="">
-					<li class="footer-media-icon footer-media-icon-2"></li>
-				</a>
-				<a href="">
-					<li class="footer-media-icon footer-media-icon-3"></li>
-				</a>
-				<a href="">
-					<li class="footer-media-icon footer-media-icon-4"></li>
-				</a>
+				<li class="footer-media-icon footer-media-icon-1"><a href="registration.html"></a></li>
+				<li class="footer-media-icon footer-media-icon-2"><a href="registration.html"></a></li>
+				<li class="footer-media-icon footer-media-icon-3"><a href="registration.html"></a></li>
+				<li class="footer-media-icon footer-media-icon-4"><a href="registration.html"></a></li>
 			</ul>
 		</section>
 

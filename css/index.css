@@ -54,6 +54,10 @@ a {
   margin: 0 20px;
 }
 
+.header-right {
+  position: relative;
+}
+
 /* ====================================================== */
 .promo {
   background-color: #f1e4e6;
@@ -103,6 +107,46 @@ a {
 }
 
 /* ====================================================== */
+.item-filter {
+  padding: 50px 25px 0px;
+  background-color: white;
+  width: 232px;
+  position: absolute;
+  top: 60px;
+  right: -342px;
+  -webkit-box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+          box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+}
+
+.close {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  background: url(../img/close.png) no-repeat;
+}
+
+.filter {
+  display: block;
+  outline: none;
+}
+
+.subfilter {
+  cursor: pointer;
+  display: block;
+  outline: none;
+  margin: 20px 0px;
+  color: #f16d7f;
+}
+
+.filter-link {
+  color: gray;
+  display: block;
+  margin: 0px 0px 10px 30px;
+}
+
 .categories {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -120,7 +164,7 @@ a {
   background-color: #211616;
   width: 360px;
   height: 260px;
-  color: #fff;
+  color: white;
   margin-bottom: 30px;
   font-size: 12px;
   display: -webkit-box;
@@ -185,12 +229,51 @@ a {
 }
 
 .item-card {
+  position: relative;
   width: 360px;
   margin-bottom: 30px;
 }
 
 .item-card:hover {
   cursor: pointer;
+}
+
+.item-cart {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 74%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  opacity: 0;
+  background: rgba(58, 56, 56, 0.86);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.item-card:hover .item-cart {
+  opacity: 1;
+}
+
+.card-add {
+  cursor: pointer;
+  padding: 15px 20px 15px 50px;
+  background: url(../img/cart.png) 10% 50% no-repeat rgba(58, 56, 56, 0.86);
+  border: 1px solid white;
+  color: white;
+}
+
+.card-image {
+  display: block;
+  width: 100%;
 }
 
 .item-card-title {
@@ -213,6 +296,13 @@ a {
 .item-botton {
   margin: 40px 0 100px;
   text-align: center;
+}
+
+.item-botton-link:hover {
+  background-color: #f16d7f;
+  color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .item-botton-link {
@@ -322,6 +412,13 @@ a {
   border: 1px solid rgba(255, 255, 255, 0);
 }
 
+.subscribe-botton-submit:hover {
+  background-color: white;
+  color: #f16d7f;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
 /* ====================================================== */
 .footer {
   height: 65px;
@@ -346,10 +443,11 @@ a {
 }
 
 .footer-media-icon {
+  cursor: pointer;
   width: 30px;
   height: 30px;
   content: "";
-  margin-left: 20px;
+  margin: 0px 10px;
 }
 
 .footer-media-icon-1 {
@@ -369,17 +467,41 @@ a {
 }
 
 .footer-media-icon-1:hover {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
   background: url(../img/facebookhover.png) center no-repeat;
 }
 
 .footer-media-icon-2:hover {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
   background: url(../img/instagrammhover.png) center no-repeat;
 }
 
 .footer-media-icon-3:hover {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
   background: url(../img/pinteresthover.png) center no-repeat;
 }
 
 .footer-media-icon-4:hover {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
   background: url(../img/twitterhover.png) center no-repeat;
+}
+
+.self-time-navigation a {
+  text-decoration: none;
+  color: white;
+}
+
+.selftime-link {
+  font-size: 18px;
+  margin-left: 30px;
+}
+
+.selftime-link:hover {
+  color: #f16d7f;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }

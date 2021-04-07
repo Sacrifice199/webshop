@@ -14,6 +14,7 @@
 	width: 25%;
 	text-align: center;
 }
+
 .subscribe-text {
 	font-style: italic;
 	margin-top: 30px;
@@ -47,11 +48,15 @@
 	cursor: pointer;
 	display: block;
 	padding: 10px 20px;
-	color: white;
-	background-color: #f16d7f;
+	color: $color-white;
+	background-color: $color-pink;
 	border-bottom-right-radius: 25px;
 	border-top-right-radius: 25px;
 	border: 1px solid rgba(255, 255, 255, 0);
+}
+
+.subscribe-botton-submit:hover {
+	@include hover-botton-rev;
 }
 
 /* ====================================================== */

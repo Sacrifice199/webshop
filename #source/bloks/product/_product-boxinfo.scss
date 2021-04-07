@@ -1,5 +1,143 @@
 .boxinfo {
-	height: 600px;
+	position: relative;
+	width: 1140px;
+	height: 700px;
+	text-align: center;
+	margin: -60px auto 100px;
+	background-color: #fafafa;
+	border: 1px solid rgb(182, 182, 182);
+}
+
+.boxinfo-caption {
+	color: $color-pink;
+	position: relative;
+	padding: 50px 0 30px;
+	font-weight: 300;
+	font-size: 14px;
+}
+
+.boxinfo-caption::after {
+	content: "";
+	position: absolute;
+	width: 60px;
+	top: 75px;
+	height: 3px;
+	left: calc(50% - 30px);
+	background-color: $color-pink;
+	-webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+	box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.boxinfo-title {
+	font-size: 18px;
+	font-weight: 300;
+}
+
+.boxinfo-text {
+	font-weight: 300;
+	width: 650px;
+	margin: 50px auto 30px;
+}
+.boxinfo-price {
+	font-weight: 300;
+	font-size: 24px;
+	position: relative;
+	color: #f16d7f;
+}
+
+.boxinfo-price::after {
+	position: absolute;
+	content: "";
+	width: 650px;
+	top: 75px;
+	height: 1px;
+	left: calc(50% - 325px);
+	background-color: #eaeaea;
+}
+
+.boxinfo-option {
+	margin: 100px 0 50px;
+	ul {
+		list-style: none;
+	}
+	.input {
+		&-check {
+			display: none;
+		}
+
+		&-title {
+			padding-right: 20px;
+			margin: 0 20px 0 20px;
+			background: url(../img/arrow-filter.png) right no-repeat;
+		}
+
+		&-drop {
+			position: absolute;
+			margin-top: 20px;
+			box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+		}
+
+		&-drop-1 {
+			left: calc(1140px - 67%);
+		}
+
+		&-drop-2 {
+			left: calc(1140px - 52%);
+		}
+
+		&-drop-3 {
+			left: calc(1140px - 40%);
+		}
+	}
+
+	.list-group-filter {
+		text-align: left;
+		padding: 0px 30px 0px 0px;
+	}
+
+	.list-group-item {
+		margin-bottom: 10px;
+	}
+
+	.input-check-1:checked ~ .input-drop {
+		display: block;
+	}
+	.input-check-1:not(:checked) ~ .input-drop {
+		display: none;
+	}
+
+	.input-check-2:checked ~ .input-drop {
+		display: block;
+	}
+	.input-check-2:not(:checked) ~ .input-drop {
+		display: none;
+	}
+
+	.input-check-3:checked ~ .input-drop {
+		display: block;
+	}
+	.input-check-3:not(:checked) ~ .input-drop {
+		display: none;
+	}
+}
+
+.boxinfo-botton {
+	margin: 200px 0 100px;
+	text-align: center;
+}
+
+.boxinfo-botton-link {
+	margin: 0 auto;
+	padding: 10px 20px 10px 50px;
+	color: $color-pink;
+	border: 1px solid $color-pink;
+	background: url(../img/cart-product.png) 10px center no-repeat;
+}
+
+.boxinfo-botton-link:hover {
+	background: url(../img/cart-hover-product.png) $color-pink 10px center no-repeat;
+	color: $color-white;
+	transition: 0.4s;
 }
 
 /* ====================================================== */

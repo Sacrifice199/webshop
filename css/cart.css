@@ -8,6 +8,11 @@ h6 {
   padding: 0;
 }
 
+p {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0;
   min-height: 100vh;
@@ -60,6 +65,10 @@ a {
   margin: 0 20px;
 }
 
+.header-right {
+  position: relative;
+}
+
 /* ====================================================== */
 .promo {
   background-color: #f1e4e6;
@@ -70,9 +79,9 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -105,38 +114,205 @@ a {
 }
 
 /* ====================================================== */
-.additionally {
-  background-color: #222224;
-}
-
-.additionally-wrap {
-  padding: 100px 0;
-  text-align: center;
+.shopping {
+  margin: 50px 0 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  color: white;
 }
 
-.additionally-card {
-  width: 360px;
-  padding: 0px 20px;
+.menu {
+  margin: 0;
+  padding: 0;
+}
+
+.item-card {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 650px;
+  height: 300px;
+  margin-bottom: 40px;
+  -webkit-box-shadow: 17px 18px 24px rgba(0, 0, 0, 0.12);
+          box-shadow: 17px 18px 24px rgba(0, 0, 0, 0.12);
+}
+
+.close {
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.close:hover {
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transform: rotateY(360deg);
+          transform: rotateY(360deg);
+}
+
+.image-card {
+  width: 260px;
+  height: 300px;
+}
+
+.price-card {
+  margin: 30px;
+}
+
+.price-cart-title {
+  position: relative;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.card-text {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.card-text-info-1 {
+  color: #f16d7f;
+}
+
+.card-text-info-4 {
+  font-size: 18px;
+  margin-left: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.253);
+  width: 40px;
+  height: 20px;
+}
+
+.card-submit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.btn-submit {
+  border: 1px solid #a4a4a4;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 15px 40px 15px 40px;
+  background-color: #fff;
+}
+
+.btn-submit:hover {
+  background-color: #f16d7f;
+  color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.adress-shipping {
+  font-weight: 300;
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+.shipping-state {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 20px 0 70px;
+}
+
+.shipping-name {
+  padding: 20px 200px 20px 20px;
+  margin-bottom: 20px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
-.additionally-subtitle {
-  margin: 20px 0;
-}
-
-.additionally-text {
+.shipping-submit {
+  border: 1px solid #a4a4a4;
+  padding: 15px 20px 15px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-weight: 300;
+  font-size: 11px;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  background-color: #fff;
 }
 
-/* ====================================================== */
+.shipping-submit:hover {
+  background-color: #f16d7f;
+  color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.price-shipping {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 360px;
+  height: 215px;
+  background-color: rgba(138, 138, 138, 0.3);
+}
+
+.subtotal-shipping {
+  margin-right: 20px;
+}
+
+.grandtotal-shipping {
+  position: relative;
+  margin: 20px 20px 40px;
+}
+
+.grandtotal-shipping::after {
+  position: absolute;
+  content: "";
+  width: 275px;
+  height: 1px;
+  top: 35px;
+  right: 40px;
+  background-color: #a4a4a4;
+}
+
+.grandtotal-shipping-price {
+  color: #f16d7f;
+}
+
+.checkout-shipping {
+  background-color: #f16d7f;
+  color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  margin: 0 auto;
+  padding: 15px 60px;
+  border: 1px solid #a4a4a4;
+}
+
+.checkout-shipping:hover {
+  background-color: white;
+  color: #f16d7f;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
 .subscribe {
   background-color: #ececec;
   background: url(../img/subscribe-bg.jpg) center no-repeat;
@@ -204,6 +380,13 @@ a {
   border: 1px solid rgba(255, 255, 255, 0);
 }
 
+.subscribe-botton-submit:hover {
+  background-color: white;
+  color: #f16d7f;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
 /* ====================================================== */
 .footer {
   height: 65px;
@@ -228,10 +411,11 @@ a {
 }
 
 .footer-media-icon {
+  cursor: pointer;
   width: 30px;
   height: 30px;
   content: "";
-  margin-left: 20px;
+  margin: 0px 10px;
 }
 
 .footer-media-icon-1 {
@@ -251,17 +435,41 @@ a {
 }
 
 .footer-media-icon-1:hover {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
   background: url(../img/facebookhover.png) center no-repeat;
 }
 
 .footer-media-icon-2:hover {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
   background: url(../img/instagrammhover.png) center no-repeat;
 }
 
 .footer-media-icon-3:hover {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
   background: url(../img/pinteresthover.png) center no-repeat;
 }
 
 .footer-media-icon-4:hover {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
   background: url(../img/twitterhover.png) center no-repeat;
+}
+
+.self-time-navigation a {
+  text-decoration: none;
+  color: white;
+}
+
+.selftime-link {
+  font-size: 18px;
+  margin-left: 30px;
+}
+
+.selftime-link:hover {
+  color: #f16d7f;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }

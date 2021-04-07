@@ -1,4 +1,3 @@
-
 .footer {
 	height: 65px;
 	background-color: #222;
@@ -13,10 +12,11 @@
 }
 
 .footer-media-icon {
+	cursor: pointer;
 	width: 30px;
 	height: 30px;
 	content: "";
-	margin-left: 20px;
+	margin: 0px 10px;
 }
 
 .footer-media-icon-1 {
@@ -36,17 +36,21 @@
 }
 
 .footer-media-icon-1:hover {
+	transition: 0.3s;
 	background: url(../img/facebookhover.png) center no-repeat;
 }
 
 .footer-media-icon-2:hover {
+	transition: 0.3s;
 	background: url(../img/instagrammhover.png) center no-repeat;
 }
 
 .footer-media-icon-3:hover {
+	transition: 0.3s;
 	background: url(../img/pinteresthover.png) center no-repeat;
 }
 
 .footer-media-icon-4:hover {
+	transition: 0.3s;
 	background: url(../img/twitterhover.png) center no-repeat;
 }

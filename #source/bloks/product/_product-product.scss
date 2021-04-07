@@ -1,16 +1,40 @@
 .product {
+	position: relative;
 	height: 780px;
-	justify-content: space-around;
+	justify-content: center;
 	align-items: center;
 	display: flex;
-	background: url(../img/productbg.png) center #f7f7f7 no-repeat;
+	background: #f7f7f7;
 }
 .productarrow {
+	cursor: pointer;
 	text-align: center;
-	width: 20px;
-	height: 20px;
-	padding: 10px 8px 8px;
-	background-color: gray;
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	border: none;
+}
+
+.productarrow-left {
+	background: url(../img/arrowleft.png) center no-repeat;
+	left: 10px;
+}
+
+.productarrow-right {
+	background: url(../img/arrowright.png) center no-repeat;
+	right: 10px;
+}
+
+.productarrow-left:hover {
+	transition: 0.4s;
+	background: url(../img/arrowhoverleft.png) center no-repeat;
+	left: 10px;
+}
+
+.productarrow-right:hover {
+	transition: 0.4s;
+	background: url(../img/arrowhoverright.png) center no-repeat;
+	right: 10px;
 }
 
 /* ====================================================== */

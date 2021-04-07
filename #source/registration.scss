@@ -31,10 +31,13 @@ a {
 
 /* ====================================================== */
 
+@import "../#source/bloks/common-variable";
+@import "../#source/bloks/common-mixin";
+
 @import "../#source/bloks/common-header";
-
 @import "../#source/bloks/registration/registration-promo";
-@import "../#source/bloks/registration/registration-additionally";
-
+@import "../#source/bloks/registration/registration-info";
 @import "../#source/bloks/common-subscribe";
 @import "../#source/bloks/common-footer";
+
+@import "../#source/bloks/common-selftime";
