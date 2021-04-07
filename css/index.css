@@ -262,6 +262,7 @@ a {
 }
 
 .card-add {
+  cursor: pointer;
   padding: 15px 20px 15px 50px;
   background: url(../img/cart.png) 10% 50% no-repeat rgba(58, 56, 56, 0.86);
   border: 1px solid white;
@@ -440,6 +441,7 @@ a {
 }
 
 .footer-media-icon {
+  cursor: pointer;
   width: 30px;
   height: 30px;
   content: "";

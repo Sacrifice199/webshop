@@ -470,6 +470,7 @@ ul {
 }
 
 .footer-media-icon {
+  cursor: pointer;
   width: 30px;
   height: 30px;
   content: "";

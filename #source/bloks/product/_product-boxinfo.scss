@@ -1,7 +1,7 @@
 .boxinfo {
 	position: relative;
 	width: 1140px;
-	height: 600px;
+	height: 700px;
 	text-align: center;
 	margin: -60px auto 100px;
 	background-color: #fafafa;
@@ -66,12 +66,14 @@
 		}
 
 		&-title {
+			padding-right: 20px;
 			margin: 0 20px 0 20px;
 			background: url(../img/arrow-filter.png) right no-repeat;
 		}
 
 		&-drop {
 			position: absolute;
+			margin-top: 20px;
 			box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
 		}
 
@@ -120,7 +122,7 @@
 }
 
 .boxinfo-botton {
-	margin: 40px 0 100px;
+	margin: 200px 0 100px;
 	text-align: center;
 }
 
@@ -129,11 +131,11 @@
 	padding: 10px 20px 10px 50px;
 	color: $color-pink;
 	border: 1px solid $color-pink;
-	background: url(/img/cart-product.png) 10px center no-repeat;
+	background: url(../img/cart-product.png) 10px center no-repeat;
 }
 
 .boxinfo-botton-link:hover {
-	background: url(/img/cart-hover-product.png) $color-pink 10px center no-repeat;
+	background: url(../img/cart-hover-product.png) $color-pink 10px center no-repeat;
 	color: $color-white;
 	transition: 0.4s;
 }
