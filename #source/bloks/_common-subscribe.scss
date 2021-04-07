@@ -1,0 +1,62 @@
+.subscribe {
+	background-color: rgb(236, 236, 236);
+	background: url(../img/subscribe-bg.jpg) center no-repeat;
+}
+
+.subscribe-wrap {
+	height: 448px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.subscribe-face {
+	width: 25%;
+	text-align: center;
+}
+
+.subscribe-text {
+	font-style: italic;
+	margin-top: 30px;
+}
+.subscribe-submite {
+	text-align: center;
+}
+
+.subcscribe-title {
+	font-weight: 700;
+}
+.subcscribe-subtitle {
+	margin: 10px 0 30px;
+	display: block;
+	font-weight: 400;
+}
+.subscribe-botton {
+	display: flex;
+}
+
+.subscribe-botton-input {
+	display: block;
+	padding: 10px 20px;
+	background-color: rgba(202, 202, 202, 0.4);
+	border-bottom-left-radius: 25px;
+	border-top-left-radius: 25px;
+	border: 1px solid rgba(255, 255, 255, 0);
+}
+
+.subscribe-botton-submit {
+	cursor: pointer;
+	display: block;
+	padding: 10px 20px;
+	color: $color-white;
+	background-color: $color-pink;
+	border-bottom-right-radius: 25px;
+	border-top-right-radius: 25px;
+	border: 1px solid rgba(255, 255, 255, 0);
+}
+
+.subscribe-botton-submit:hover {
+	@include hover-botton-rev;
+}
+
+/* ====================================================== */

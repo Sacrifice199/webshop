@@ -1,0 +1,42 @@
+.promo {
+	background-color: #f1e4e6;
+}
+
+.promo-wrap {
+	height: 764px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	background-image: url(../img/promo-bg.png);
+	background-repeat: no-repeat;
+	background-position: -225px bottom;
+}
+
+.promo-title {
+	margin: 0;
+	width: 50%;
+	margin-left: 64px;
+	margin-top: -80px;
+	border-left: 12px solid $color-pink;
+	padding-left: 16px;
+}
+
+.promo-title-bold {
+	font-size: 35px;
+	font-weight: 700;
+}
+
+.promo-title-normal {
+	font-size: 25px;
+	font-weight: 400;
+}
+
+.promo-title-color {
+	font-size: 25px;
+	color: $color-pink;
+	text-shadow: -0 -1px 0 #000000, 0 -1px 0 #000000, -0 1px 0 #000000, 0 1px 0 #000000, -1px -0 0 #000000,
+		1px -0 0 #000000, -1px 0 0 #000000, 1px 0 0 #000000, -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000,
+		1px 1px 0 #000000, -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
+}
+
+/* ====================================================== */

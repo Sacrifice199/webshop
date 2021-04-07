@@ -1,0 +1,24 @@
+.header {
+	background-color: #222;
+	padding: 20px 0;
+}
+
+.header-wrap {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header-logo-link {
+	margin-right: 20px;
+}
+
+.header-account-link {
+	margin: 0 20px;
+}
+
+.header-right {
+	position: relative;
+}
+
+/* ====================================================== */
