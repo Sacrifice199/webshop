@@ -36,8 +36,10 @@ a {
 
 /* ====================================================== */
 .header {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   background-color: #222;
-  padding: 20px 0;
+  padding: 20px 0px;
 }
 
 .header-wrap {
@@ -345,6 +347,9 @@ ul {
 }
 
 .additionally-wrap {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 100px 0;
   text-align: center;
   display: -webkit-box;
@@ -357,8 +362,8 @@ ul {
 }
 
 .additionally-card {
-  width: 360px;
-  padding: 0px 20px;
+  width: 320px;
+  padding: 20px 20px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }

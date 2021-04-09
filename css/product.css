@@ -36,8 +36,10 @@ a {
 
 /* ====================================================== */
 .header {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   background-color: #222;
-  padding: 20px 0;
+  padding: 20px 0px;
 }
 
 .header-wrap {
