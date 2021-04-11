@@ -45,3 +45,288 @@ a {
 @import "../#source/bloks/common-footer";
 
 @import "../#source/bloks/common-selftime";
+
+@media (max-width: 1160px) {
+	.wrap {
+		width: 767px;
+	}
+
+	.center {
+		padding: 0 calc(50% - 768px / 2);
+	}
+
+	.self-time-navigation {
+		display: none;
+	}
+
+	.promo-navigation {
+		display: none;
+	}
+
+	.promo-wrap {
+		flex-direction: column-reverse;
+		justify-content: center;
+	}
+
+	.boxinfo {
+		width: 768px;
+	}
+
+	.items-cards {
+		margin: 0;
+		padding: 0;
+	}
+
+	.item-card-3 {
+		display: none;
+	}
+
+	.boxinfo-option {
+		margin: 60px 0;
+		.input {
+			&-check {
+				display: none;
+			}
+
+			&-title {
+				padding-right: 20px;
+				margin: 0 20px 0 20px;
+				background: url(../img/arrow-filter.png) right no-repeat;
+			}
+
+			&-drop {
+				position: absolute;
+				margin-top: 20px;
+				box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+			}
+
+			&-drop-1 {
+				left: calc(700px - 67%);
+			}
+
+			&-drop-2 {
+				left: calc(770px - 52%);
+			}
+
+			&-drop-3 {
+				left: calc(810px - 40%);
+			}
+		}
+
+		.list-group-filter {
+			text-align: left;
+			padding: 0px 30px 0px 0px;
+		}
+
+		.list-group-item {
+			margin-bottom: 10px;
+		}
+	}
+}
+
+@media (max-width: 767px) {
+	.wrap {
+		width: 320px;
+		margin: 0 auto;
+	}
+
+	.center {
+		padding: 0 calc(50% - 320px / 2);
+	}
+
+	.header-logo {
+		padding: 0px 10px;
+	}
+	.header-burger {
+		padding: 0px 10px;
+	}
+	.header-account-link {
+		display: none;
+	}
+	.header-cart-link {
+		display: none;
+	}
+
+	.boxinfo {
+		width: 400px;
+		font-size: 11px;
+	}
+
+	.product {
+		max-height: 730px;
+	}
+
+	.boxinfo-price::after {
+		display: none;
+	}
+
+	.boxinfo-option {
+		margin: 60px 0;
+		.input {
+			&-check {
+				display: none;
+			}
+
+			&-title {
+				padding-right: 20px;
+				margin: 0 20px 0 20px;
+				background: url(../img/arrow-filter.png) right no-repeat;
+			}
+
+			&-drop {
+				position: absolute;
+				margin-top: 20px;
+				box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+			}
+
+			&-drop-1 {
+				left: calc(300px - 67%);
+			}
+
+			&-drop-2 {
+				left: calc(370px - 52%);
+			}
+
+			&-drop-3 {
+				left: calc(420px - 40%);
+			}
+		}
+
+		.list-group-filter {
+			text-align: left;
+			padding: 0px 30px 0px 0px;
+		}
+
+		.list-group-item {
+			margin-bottom: 10px;
+		}
+	}
+
+	.image-product {
+		max-width: 80%;
+	}
+
+	.boxinfo {
+		max-width: 768px;
+		height: 600px;
+	}
+
+	.subscribe-wrap {
+		flex-direction: column;
+	}
+	.subscribe-face {
+		width: 100%;
+	}
+
+	.footer {
+		font-size: 16px;
+		flex-direction: column-reverse;
+		padding: 20px;
+	}
+}
+
+@media (max-width: 400px) {
+	.product {
+		height: 500px;
+	}
+
+	.boxinfo {
+		margin: 0;
+		padding: 0;
+		font-size: 9px;
+		width: 320px;
+		height: 620px;
+	}
+
+	.boxinfo-text {
+		font-size: 14px;
+		font-weight: 300;
+		margin: 30px auto 30px;
+	}
+
+	.boxinfo-price::after {
+		position: absolute;
+		content: "";
+		width: 300px;
+		top: 75px;
+		height: 1px;
+		left: 40px;
+		background-color: #eaeaea;
+	}
+
+	.boxinfo-option {
+		.input {
+			&-check {
+				display: none;
+			}
+
+			&-title {
+				padding-right: 20px;
+				margin: 0 20px 0 20px;
+				background: url(../img/arrow-filter.png) right no-repeat;
+			}
+
+			&-drop {
+				position: absolute;
+				margin-top: 20px;
+				box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+			}
+
+			&-drop-1 {
+				left: calc(240px - 67%);
+			}
+
+			&-drop-2 {
+				left: calc(300px - 52%);
+			}
+
+			&-drop-3 {
+				left: calc(340px - 40%);
+			}
+		}
+
+		.list-group-filter {
+			text-align: left;
+			padding: 0px 30px 0px 0px;
+		}
+
+		.list-group-item {
+			margin-bottom: 10px;
+		}
+	}
+
+	.item {
+		margin: 0;
+		padding: 0;
+	}
+
+	.card-image {
+		width: 320px;
+	}
+
+	.item-cart {
+		position: absolute;
+		top: 0;
+		left: 0px;
+		width: 320px;
+		height: 72%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		opacity: 0;
+		background: rgba(58, 56, 56, 0.86);
+		transition: 0.4s;
+	}
+
+	.item-card {
+		position: relative;
+		width: 320px;
+		margin-bottom: 30px;
+	}
+}
+
+@media (max-width: 400px) {
+	.boxinfo {
+		font-size: 7px;
+	}
+}

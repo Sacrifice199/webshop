@@ -42,3 +42,170 @@ a {
 @import "../#source/bloks/common-footer";
 
 @import "../#source/bloks/common-selftime";
+
+@media (max-width: 1160px) {
+	.wrap {
+		width: 767px;
+	}
+
+	.center {
+		padding: 0 calc(50% - 768px / 2);
+	}
+
+	.self-time-navigation {
+		display: none;
+	}
+
+	.promo-navigation {
+		display: none;
+	}
+
+	.promo-wrap {
+		flex-direction: column-reverse;
+		justify-content: center;
+	}
+
+	.item-filter {
+		left: 0px;
+		z-index: 2;
+	}
+
+	.item-filter-box-1 {
+		right: 36%;
+		width: 170px;
+	}
+
+	.item-filter-box-2 {
+		right: 24%;
+		width: 80px;
+	}
+
+	.item-filter-box-3 {
+		width: 90px;
+		padding-right: 80px;
+		right: 0;
+	}
+
+	.items-cards {
+		margin: 0;
+		padding: 50px 0;
+	}
+
+	.item-card-9 {
+		display: none;
+	}
+
+	.items-nav-page {
+		display: none;
+	}
+
+	.additionally-wrap {
+		padding: 50px 0px;
+	}
+}
+
+@media (max-width: 767px) {
+	.wrap {
+		width: 320px;
+		margin: 0 auto;
+	}
+
+	.center {
+		padding: 0 calc(50% - 320px / 2);
+	}
+
+	.header-logo {
+		padding: 0px 10px;
+	}
+	.header-burger {
+		padding: 0px 10px;
+	}
+	.header-account-link {
+		display: none;
+	}
+	.header-cart-link {
+		display: none;
+	}
+
+	.item-filter {
+		z-index: 5;
+		left: 0px;
+	}
+
+	.filter {
+		position: absolute;
+		top: 0;
+		left: -75px;
+		height: 75px;
+		width: 75px;
+		span {
+			display: none;
+		}
+	}
+
+	.filter:hover {
+		position: absolute;
+		top: 0;
+		left: -75px;
+		height: 75px;
+		width: 75px;
+	}
+
+	.subfilter {
+	}
+
+	.item-filter-box-1 {
+		right: 180px;
+		width: 100px;
+	}
+
+	.item-filter-box-2 {
+		right: 120px;
+		width: 60px;
+	}
+
+	.item-filter-box-3 {
+		width: 70px;
+		padding-right: 80px;
+		right: -50px;
+	}
+
+	.item-filter-right {
+		font-size: 12px;
+	}
+
+	.list-group-filter {
+		margin: 0 20px 0 0;
+		padding: 0 20px 5px;
+	}
+
+	.item-card {
+		width: 320px;
+	}
+
+	.card-image {
+		width: 320px;
+	}
+
+	.item-cart {
+		height: 72%;
+	}
+
+	.additionally-wrap {
+		flex-direction: column;
+		padding: 20px 0px;
+	}
+
+	.subscribe-wrap {
+		flex-direction: column;
+	}
+	.subscribe-face {
+		width: 100%;
+	}
+
+	.footer {
+		font-size: 16px;
+		flex-direction: column-reverse;
+		padding: 20px;
+	}
+}
