@@ -9,7 +9,7 @@ ul {
 	display: flex;
 }
 
-.item-filter {
+.item-filters {
 	position: absolute;
 	background-color: white;
 	width: 360px;
@@ -43,7 +43,7 @@ ul {
 	right: 22%;
 }
 
-.filter {
+.filter-item {
 	padding: 20px;
 	cursor: pointer;
 	display: block;
@@ -53,7 +53,7 @@ ul {
 	background: url(../img/filter.svg) 80px 22.5px no-repeat;
 }
 
-.filter:hover {
+.filter-item:hover {
 	padding: 20px;
 	cursor: pointer;
 	display: block;

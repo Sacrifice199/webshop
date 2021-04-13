@@ -55,6 +55,10 @@
 	background-color: #eaeaea;
 }
 
+.input-title {
+	cursor: pointer;
+}
+
 .boxinfo-option {
 	margin: 100px 0 50px;
 	ul {
@@ -72,6 +76,7 @@
 		}
 
 		&-drop {
+			cursor: pointer;
 			position: absolute;
 			margin-top: 20px;
 			box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
