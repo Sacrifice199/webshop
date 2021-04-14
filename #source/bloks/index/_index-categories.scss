@@ -13,10 +13,10 @@
 
 .category-item {
 	background-color: #211616;
-	width: 360px;
-	height: 260px;
+	width: 30%;
+	height: 280px;
 	color: $color-white;
-	margin-bottom: 30px;
+	margin: 10px;
 	font-size: 12px;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -35,25 +35,24 @@
 }
 
 .category-item-1 {
-	background-image: url(../img/category-bg1.png);
-	background-repeat: no-repeat;
+	background: url(../img/category-bg1.png) no-repeat;
+	background-size: contain;
 }
 
 .category-item-2 {
-	background-image: url(../img/category-bg2.png);
-	background-repeat: no-repeat;
+	background: url(../img/category-bg2.png) no-repeat;
+	background-size: contain;
 }
 
 .category-item-3 {
-	background-image: url(../img/category-bg3.png);
-	background-repeat: no-repeat;
+	background: url(../img/category-bg3.png) no-repeat;
+	background-size: contain;
 }
 
 .category-item-4 {
 	height: 180px;
 	width: 100%;
-	background-image: url(../img/category-bg4.png);
-	background-repeat: no-repeat;
+	background: url(../img/category-bg4.png) no-repeat;
 }
 
 /* ====================================================== */

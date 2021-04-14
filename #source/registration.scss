@@ -36,8 +36,86 @@ a {
 
 @import "../#source/bloks/common-header";
 @import "../#source/bloks/registration/registration-promo";
+@import "../#source/bloks/common-menu";
 @import "../#source/bloks/registration/registration-info";
 @import "../#source/bloks/common-subscribe";
 @import "../#source/bloks/common-footer";
 
 @import "../#source/bloks/common-selftime";
+
+@media (max-width: 1160px) {
+	.wrap {
+		width: 767px;
+	}
+
+	.center {
+		padding: 0 calc(50% - 768px / 2);
+	}
+
+	.self-time-navigation {
+		display: none;
+	}
+}
+
+@media (max-width: 767px) {
+	.wrap {
+		width: 320px;
+		margin: 0 auto;
+	}
+
+	.center {
+		padding: 0 calc(50% - 320px / 2);
+	}
+
+	.promo-wrap {
+		flex-direction: column-reverse;
+		justify-content: center;
+	}
+
+	.promo-navigation {
+		display: none;
+	}
+
+	.info-input {
+		width: 320px;
+	}
+
+	.info {
+		flex-direction: column;
+		width: 320px;
+	}
+	.info-form {
+		margin: 0;
+	}
+
+	.header-logo {
+		padding: 0px 10px;
+	}
+	.header-burger {
+		padding: 0px 10px;
+	}
+	.header-account-link {
+		display: none;
+	}
+	.header-cart-link {
+		display: none;
+	}
+
+	.info-advantages {
+		font-size: 16px;
+	}
+
+	.subscribe-wrap {
+		flex-direction: column;
+	}
+
+	.subscribe-face {
+		width: 100%;
+	}
+
+	.footer {
+		font-size: 16px;
+		flex-direction: column-reverse;
+		padding: 20px;
+	}
+}

@@ -7,14 +7,12 @@
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
-	background-image: url(../img/promo-bg.png);
-	background-repeat: no-repeat;
-	background-position: -225px bottom;
+	background: url(../img/promo-bg.png) -225px bottom no-repeat;
 }
 
 .promo-title {
 	margin: 0;
-	width: 50%;
+	width: 30%;
 	margin-left: 64px;
 	margin-top: -80px;
 	border-left: 12px solid $color-pink;

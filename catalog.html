@@ -39,9 +39,8 @@
 
 			<div class="header-right">
 
-				<a href="#" class="header-menu-link">
-					<img src="img/burger.png" alt="search" class="header-menu">
-				</a>
+				<label for="menu" class="header-menu-link"><img class="header-burger" src="img/burger.png" alt="search"
+					class="header-menu"></label>
 
 				<a href="registration.html" class="header-account-link">
 					<img src="img/registration.png" alt="search" class="header-account">
@@ -50,6 +49,42 @@
 				<a href="cart.html" class="header-cart-link">
 					<img src="img/cart.png" alt="cart" class="header-cart">
 				</a>
+
+				<input type="checkbox" id="menu" class="menuburger">
+
+				<nav class="item-filter">
+					<label for="menu" class="close"></label>
+					<div class="filter">MENU</div>
+					<details>
+						<summary class="subfilters">MAN</summary>
+						<a href="#" class="filter-link">Accessiories</a>
+						<a href="#" class="filter-link">Bags</a>
+						<a href="#" class="filter-link">Denim</a>
+						<a href="#" class="filter-link">Jackets & Coats</a>
+						<a href="#" class="filter-link">Polos</a>
+						<a href="#" class="filter-link">Shirts</a>
+						<a href="#" class="filter-link">Shoes</a>
+						<a href="#" class="filter-link">Sweaters $ Knits</a>
+						<a href="#" class="filter-link">T-Shirts</a>
+						<a href="#" class="filter-link">Tanks</a>
+					</details>
+					<details>
+						<summary class="subfilters">WOMAN</summary>
+						<a href="#" class="filter-link">Stone Island</a>
+						<a href="#" class="filter-link">Oscar de la Renta</a>
+						<a href="#" class="filter-link">Lacoste</a>
+						<a href="#" class="filter-link">Marc Jacobs</a>
+						<a href="#" class="filter-link">Tommy Hilfiger</a>
+					</details>
+					<details>
+						<summary class="subfilters">KIDS</summary>
+						<a href="#" class="filter-link">Eco</a>
+						<a href="#" class="filter-link">Minimal</a>
+						<a href="#" class="filter-link">Vintage</a>
+						<a href="#" class="filter-link">Zut</a>
+						<a href="#" class="filter-link">Cafari</a>
+					</details>
+				</nav>
 
 			</div>
 		</div>
@@ -71,8 +106,8 @@
 		<section class="item center">
 			<div class="items">
 				<div class="items-filter">
-					<details class="item-filter">
-						<summary class="filter">FILTER</summary>
+					<details class="item-filters">
+						<summary class="filter-item"><span>FILTER</span></summary>
 						<details>
 							<summary class="subfilter">CATEGORY</summary>
 							<a href="#" class="filter-link">Accessiories</a>
@@ -104,72 +139,73 @@
 							<a href="#" class="filter-link">Cafari</a>
 						</details>
 					</details>
+					<section class="item-filter-right">
+						<details class="item-filter-box item-filter-box-1">
+							<summary class="filter-box">TRENDING NOW</summary>
+							<ul class="list-group-filter list-group-filter-1">
+								<li class="list-group-item">
+									<input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+									Sale
+								</li>
+								<li class="list-group-item">
+									<input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+									Sale
+								</li>
+								<li class="list-group-item">
+									<input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+									Sale
+								</li>
+								<li class="list-group-item">
+									<input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+									Sale
+								</li>
+							</ul>
+						</details>
 
-					<details class="item-filter-box item-filter-box-1">
-						<summary class="filter-box">TRENDING NOW</summary>
-						<ul class="list-group-filter list-group-filter-1">
-							<li class="list-group-item">
-								<input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-								Sale
-							</li>
-							<li class="list-group-item">
-								<input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-								Sale
-							</li>
-							<li class="list-group-item">
-								<input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-								Sale
-							</li>
-							<li class="list-group-item">
-								<input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-								Sale
-							</li>
-						</ul>
-					</details>
+						<details class="item-filter-box item-filter-box-2">
+							<summary class="filter-box">SIZE</summary>
+							<ul class="list-group-filter list-group-filter-2">
+								<li class="list-group-item">
+									<input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+									XL
+								</li>
+								<li class="list-group-item">
+									<input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+									L
+								</li>
+								<li class="list-group-item">
+									<input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+									M
+								</li>
+								<li class="list-group-item">
+									<input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+									S
+								</li>
+							</ul>
+						</details>
 
-					<details class="item-filter-box item-filter-box-2">
-						<summary class="filter-box">SIZE</summary>
-						<ul class="list-group-filter list-group-filter-2">
-							<li class="list-group-item">
-								<input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-								XL
-							</li>
-							<li class="list-group-item">
-								<input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-								L
-							</li>
-							<li class="list-group-item">
-								<input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-								M
-							</li>
-							<li class="list-group-item">
-								<input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-								S
-							</li>
-						</ul>
-					</details>
-
-					<details class="item-filter-box item-filter-box-3">
-						<summary class="filter-box">PRICE</summary>
-						<ul class="list-group-filter list-group-filter-3">
-							<li class="list-group-item list-group-item-3">
-								<input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-								0.9$ - 9.99$
-							</li>
-							<li class="list-group-item list-group-item-3">
-								<input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-								10$ - 49.99$
-							</li>
-							<li class="list-group-item list-group-item-3">
-								<input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-								50$ - 99.99$
-							</li>
-							<li class="list-group-item list-group-item-3">
-								<input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-								100$ - 149.99$
-							</li>
-						</ul>
-					</details>
+						<details class="item-filter-box item-filter-box-3">
+							<summary class="filter-box">PRICE</summary>
+							<ul class="list-group-filter list-group-filter-3">
+								<li class="list-group-item list-group-item-3">
+									<input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+									0.9$ - 9.99$
+								</li>
+								<li class="list-group-item list-group-item-3">
+									<input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+									10$ - 49.99$
+								</li>
+								<li class="list-group-item list-group-item-3">
+									<input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+									50$ - 99.99$
+								</li>
+								<li class="list-group-item list-group-item-3">
+									<input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+									100$ - 149.99$
+								</li>
+							</ul>
+						</details>
+					</section>
 
 				</div>
 				<ul class="items-cards">
@@ -278,7 +314,7 @@
 						</div>
 					</li>
 
-					<li class="item-card item-card-1">
+					<li class="item-card item-card-9">
 						<img class="card-image" src="img/card1.png" alt="product">
 						<div class="item-cart">
 							<button class="card-add">Add to Card</button>
@@ -306,18 +342,18 @@
 						<li class="items-navigation-page"><a class="page-link" href="#">5</a></li>
 						<li class="items-navigation-page"><a class="page-link" href="#">6</a></li>
 						<li class="items-navigation-page"><a class="page-link" href="#">7</a></li>
-						<li class="items-navigation-page"><a class="page-link" href="#">8</a></li>
-						<li class="items-navigation-page"><a class="page-link" href="#">9</a></li>
-						<li class="items-navigation-page"><a class="page-link" href="#">10</a></li>
-						<li class="items-navigation-page"><a class="page-link" href="#">11</a></li>
-						<li class="items-navigation-page"><a class="page-link" href="#">12</a></li>
-						<li class="items-navigation-page"><a class="page-link" href="#">13</a></li>
-						<li class="items-navigation-page"><a class="page-link" href="#">14</a></li>
-						<li class="items-navigation-page"><a class="page-link" href="#">15</a></li>
-						<li class="items-navigation-page"><a class="page-link" href="#">16</a></li>
-						<li class="items-navigation-page"><a class="page-link" href="#">17</a></li>
-						<li class="items-navigation-page"><a class="page-link" href="#">18</a></li>
-						<li class="items-navigation-page"><a class="page-link" href="#">19</a></li>
+						<li class="items-navigation-page items-nav-page"><a class="page-link" href="#">8</a></li>
+						<li class="items-navigation-page items-nav-page"><a class="page-link" href="#">9</a></li>
+						<li class="items-navigation-page items-nav-page"><a class="page-link" href="#">10</a></li>
+						<li class="items-navigation-page items-nav-page"><a class="page-link" href="#">11</a></li>
+						<li class="items-navigation-page items-nav-page"><a class="page-link" href="#">12</a></li>
+						<li class="items-navigation-page items-nav-page"><a class="page-link" href="#">13</a></li>
+						<li class="items-navigation-page items-nav-page"><a class="page-link" href="#">14</a></li>
+						<li class="items-navigation-page items-nav-page"><a class="page-link" href="#">15</a></li>
+						<li class="items-navigation-page items-nav-page"><a class="page-link" href="#">16</a></li>
+						<li class="items-navigation-page items-nav-page"><a class="page-link" href="#">17</a></li>
+						<li class="items-navigation-page items-nav-page"><a class="page-link" href="#">18</a></li>
+						<li class="items-navigation-page items-nav-page"><a class="page-link" href="#">19</a></li>
 						<li class="items-navigation-page"><a class="page-link" href="#">20</a></li>
 						<li class="items-navigation-page">
 							<a class="page-link page-link " href="#" aria-label="Next">

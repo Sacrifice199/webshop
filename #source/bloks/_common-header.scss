@@ -1,6 +1,7 @@
 .header {
+	box-sizing: border-box;
 	background-color: #222;
-	padding: 20px 0;
+	padding: 20px 0px;
 }
 
 .header-wrap {
@@ -9,11 +10,17 @@
 	align-items: center;
 }
 
+.header-burger {
+	cursor: pointer;
+}
+
 .header-logo-link {
+	cursor: pointer;
 	margin-right: 20px;
 }
 
 .header-account-link {
+	cursor: pointer;
 	margin: 0 20px;
 }
 

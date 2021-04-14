@@ -8,8 +8,11 @@
 	margin: 0;
 	padding: 0;
 }
-.items {
+
+.item {
+	padding: 0px 20px;
 }
+
 .item-card {
 	position: relative;
 	display: flex;
@@ -45,14 +48,9 @@
 	margin-bottom: 30px;
 }
 
-.price-cart-text {
-}
-
 .card-text {
 	font-size: 22px;
 	margin-bottom: 10px;
-}
-.card-text-info {
 }
 
 .card-text-info-1 {
@@ -68,6 +66,8 @@
 }
 
 .card-submit {
+	padding: 0 25px;
+	width: 600px;
 	display: flex;
 	justify-content: space-between;
 }
@@ -83,10 +83,6 @@
 	@include hover-botton;
 }
 
-.aside {
-}
-.shipping {
-}
 .adress-shipping {
 	font-weight: 300;
 	font-size: 16px;
@@ -122,14 +118,13 @@
 	align-items: flex-end;
 	justify-content: center;
 	width: 360px;
-	height: 215px;
+
 	background-color: rgba(138, 138, 138, 0.3);
 }
 .subtotal-shipping {
-	margin-right: 20px;
+	margin: 85px 20px 0 0;
 }
-.subtotal-shipping-price {
-}
+
 .grandtotal-shipping {
 	position: relative;
 	margin: 20px 20px 40px;
@@ -151,7 +146,7 @@
 
 .checkout-shipping {
 	@include hover-botton;
-	margin: 0 auto;
+	margin: 0 auto 50px;
 	padding: 15px 60px;
 	border: 1px solid #a4a4a4;
 }
